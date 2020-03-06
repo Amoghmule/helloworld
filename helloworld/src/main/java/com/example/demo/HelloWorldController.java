@@ -11,6 +11,8 @@ public class HelloWorldController {
 	
 	@RequestMapping("/helloworld")
 	public String helloMethod() {
+		
+		//new comment in local
 		return "Hello to sts project";
 	}
 }
